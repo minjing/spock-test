@@ -8,7 +8,7 @@ class AnnotationMetaTest extends Specification {
     def mockTest = Mock(AnnotationMeta.Builder1)
 
     when:
-    mockTest.getInstance()
+    mockTest.createInstance()
 
     then:
     true == true
